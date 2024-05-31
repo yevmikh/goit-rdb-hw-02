@@ -49,6 +49,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `hw01-1`.`product` (
   `id` INT NOT NULL,
   `description` VARCHAR(45) NULL,
+  `stock` INT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
